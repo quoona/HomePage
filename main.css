@@ -389,4 +389,155 @@ body {
   margin-top: 32px;
 }
 
+.achievements-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 144px;
+  align-items: center;
+  background-color: #f5f7fa;
+}
 
+.achievements-section-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.achievements-section-left-title {
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.achievements-section-left-description-title {
+  color: #4caf4f;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-top: 8px;
+}
+.achievements-section-left-sub-title {
+  color: #18191f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.achievements-section-right {
+  max-width: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 30px;
+}
+
+.achievements-section-right-logo {
+  width: 48px;
+  height: 48px;
+}
+.achievements-section-right-component {
+  display: flex;
+  align-items: center;
+}
+
+.achievements-section-right-component-body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.achievements-section-right-number {
+  color: #4d4d4d;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.achievements-section-right-description {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.customers-section {
+  display: flex;
+  padding: 144px;
+  background-color: #f5f7fa;
+  margin: 48px 0px;
+}
+
+.customers-section-left-logo {
+  width: 326px;
+  height: 326px;
+}
+.customer-section-right-list-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customers-section-right {
+  padding-left: 78px;
+}
+
+.customers-section-right-description {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.customers-section-right-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.customers-section-right-info-name {
+  color: #4caf4f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.customers-section-right-info-description {
+  color: #89939e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.customer-section-right-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.customer-section-right-list-item-link {
+  color: #4caf4f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.customer-section-right-list-item-right-item {
+  height: 24px;
+  width: 24px;
+}
+
+.footer {
+  height: 155px;
+  background-color: #263238;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 23px;
+}
+
+.footer-list-logo {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-list-logo-item-icon {
+  width: 32px;
+  height: 32px;
+}
